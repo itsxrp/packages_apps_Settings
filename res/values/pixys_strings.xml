@@ -459,4 +459,7 @@
 
     <!-- Battery temperature -->
     <string name="battery_temperature">Battery temperature</string>
+
+    <!-- VoidUI Maintainer -->
+    <string name="VoidUI_maintainer">Device Maintainer</string>
 </resources>
