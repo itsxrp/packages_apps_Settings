@@ -136,6 +136,26 @@
             android:summary="@string/less_boring_heads_up_summary"
             android:defaultValue="false" />
 
+        <com.pixys.support.preference.SystemSettingSwitchPreference
+            android:key="reticker_status"
+            android:title="@string/reticker_title"
+            android:summary="@string/reticker_summary"
+            android:defaultValue="false" />
+
+        <com.pixys.support.preference.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="reticker_colored"
+            android:title="@string/reticker_colored_title"
+            android:summary="@string/reticker_colored_summary"
+            android:defaultValue="false" />
+
+        <com.pixys.support.preference.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="reticker_landscape_only"
+            android:title="@string/reticker_landscape_only_title"
+            android:summary="@string/reticker_landscape_only_summary"
+            android:defaultValue="false" />
+
         <com.android.settingslib.RestrictedPreference
             android:key="zen_mode_notifications"
             android:order="17"
