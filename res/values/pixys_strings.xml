@@ -456,4 +456,7 @@
     <!-- Separate ring & notification toggle -->
     <string name="volume_separate_notification_title">Separated Ring and Notification</string>
     <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
 </resources>
